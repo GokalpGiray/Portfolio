@@ -1318,3 +1318,13 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Sonradan Eklenenler */
+
+.mail-to{
+    cursor: pointer;
+}
+
+.mail-to:hover{
+    color: var(--first-color);
+}
