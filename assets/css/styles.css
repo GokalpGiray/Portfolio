@@ -826,6 +826,8 @@ img{
 .project__img{
     width: 232px;
     justify-self: center;
+    margin-right: 2rem;
+    margin-top: -2rem;
 }
 
 /* ======================= TESTIMONIAL ==================== */
@@ -914,6 +916,12 @@ img{
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
+}
+
+.contact__align{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
 
 /* ========================= FOOTER ======================= */
@@ -1077,8 +1085,6 @@ img{
     .testimonial__description{
         text-align: center;
     }
-
-
 }
 
 /* For medium devices */
@@ -1099,18 +1105,10 @@ img{
     .skills__container,
     .portfolio__content,
     .project__container,
-    .contact__container,
+    .contact__align,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .qualification__sections{
-        display: grid;
-        grid-template-columns: .6fr;
-        justify-content: center;
-    }
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -1255,6 +1253,13 @@ img{
 
     .project__data{
         padding-top: .8rem;
+    }
+
+    .contact__align{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        grid-gap: 3rem;
     }
 
     .footer__container{
