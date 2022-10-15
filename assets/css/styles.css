@@ -521,7 +521,10 @@ img{
     width: 60%;
 }
 .skills__react{
-    width: 85%;
+    width: 80%;
+}
+.skills__redux{
+    width: 60%;
 }
 
 
@@ -529,10 +532,10 @@ img{
     width: 100%;
 }
 .skills__ts{
-    width: 70%;
+    width: 100%;
 }
 .skills__gps{
-    width: 90%;
+    width: 100%;
 }
 .skills__python{
     width: 55%;
