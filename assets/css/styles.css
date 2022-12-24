@@ -753,6 +753,7 @@ img{
 
 .portfolio__content{
     padding: 0 1.5rem;
+    margin: auto;
 }
 
 .portfolio__img{
