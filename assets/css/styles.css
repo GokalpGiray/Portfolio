@@ -512,19 +512,22 @@ img{
     width: 100%;
 }
 .skills__css{
-    width: 80%;
+    width: 90%;
 }
 .skills__bootstrap{
     width: 80%;
 }
 .skills__js{
-    width: 60%;
+    width: 80%;
 }
 .skills__react{
     width: 80%;
 }
 .skills__redux{
-    width: 60%;
+    width: 80%;
+}
+.skills__wordpress{
+    width: 70%;
 }
 
 
