@@ -551,8 +551,14 @@ img{
 .skills__git{
     width: 70%;
 }
+.skills__node{
+    width: 70%;
+}
 .skills__matlab{
     width: 70%;
+}
+.skills__rest{
+    width: 60%;
 }
 .skills__java{
     width: 40%;
