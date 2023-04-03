@@ -557,6 +557,9 @@ img{
 .skills__matlab{
     width: 70%;
 }
+.skills__mongo{
+    width: 60%;
+}
 .skills__rest{
     width: 60%;
 }
